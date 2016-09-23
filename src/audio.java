@@ -20,7 +20,7 @@ public class audio extends JFrame {
          activeClip = clip;
          // Open audio clip and load samples from the audio input stream.
          clip.open(audioIn);
-         clip.start();
+         //clip.start();
       } catch (UnsupportedAudioFileException e) {
          e.printStackTrace();
       } catch (IOException e) {

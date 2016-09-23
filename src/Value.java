@@ -32,5 +32,5 @@ public class Value {
 	public static float[] damage = {(float) 0.5, 1, (float) 1.5, 2};
 	public static int[] health = {5, 10, 20};
 	
-	public static String version = "Tower Defense Beta 7";
+	public static String version = "Tower Defense Beta 8";
 }

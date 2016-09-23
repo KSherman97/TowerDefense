@@ -84,6 +84,7 @@ public class KeyHandel implements MouseMotionListener, MouseListener, KeyListene
 			if (e.getKeyCode() == KeyEvent.VK_ESCAPE) {
 				// Screen.store.press(e.getKeyCode());
 				Screen.isPause = true;
+				new PauseMenu();
 				//System.out.println("paused");
 			 }
 	  	} else {

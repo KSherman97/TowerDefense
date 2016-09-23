@@ -30,7 +30,7 @@ private int duration;
     setBounds(x,y,width,height);
 
     // Build the splash screen
-    JLabel copyrt = new JLabel("Copyright 2014, Watchan Incorporated", JLabel.CENTER);
+    JLabel copyrt = new JLabel("Copyright 2016, Watchan Incorporated", JLabel.CENTER);
     copyrt.setFont(new Font("Sans-Serif", Font.BOLD, 12));
     content.add(copyrt, BorderLayout.SOUTH);
     Color oraRed = new Color(156, 20, 20,  255);
