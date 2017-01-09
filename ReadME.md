@@ -36,4 +36,4 @@ Thanks again for playing,
 
 Sincerely,
 
-Watchan Games
+Kyle S.
