@@ -27,10 +27,4 @@ Okay so let’s break this down a little so that you can get a better understand
 -	In the second square that has the has the 0s and the -1s, a -1 is air(ignored by everything) and a 0 is the tower(this is to be placed at the end of the road that the mobs will travel on)
 -	The mobs are coded to go from left to right so you need to design the map accordingly
 
-If you feel that you have made a mod worth sharing and I will send every person that has signed up for the emails a link to the mod. However for me to be able to do this you need to email me the files. 
-
-Thank you for expressing an interest in modding our game.
-
-Sincerely,
-
-Kyle Sherman
+If you feel that you have made a mod worth sharing email me the files and I would love to check them out. 
