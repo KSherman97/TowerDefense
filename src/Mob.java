@@ -13,7 +13,7 @@ public class Mob extends Rectangle {
 	public int mobWalk = 0;
 	public int upward = 0, downward = 1, right = 2, left = 3;
 	public int direction = right;
-	public int mobID = Value.mobGreeny;
+	public int mobID;
 	public boolean inGame = false;
 	public boolean hasUpward = false;
 	public boolean hasDownward = false;
@@ -52,8 +52,8 @@ public class Mob extends Rectangle {
 		
 		public void looseHealth() {
 			if(mobID == Value.mobGreeny) {
-			Screen.health -= 10;
-				}else if(mobID == Value.mob2) {
+				Screen.health -= 10;
+			}else if(mobID == Value.mob2) {
 				Screen.health -= 15;
 			} else if(mobID == Value.mob3){
 				Screen.health -= 20;
@@ -174,6 +174,7 @@ public class Mob extends Rectangle {
 		public void checkDeath() {
 			if(health <= 0) {
 				deleteMob();
+				getMoney(mobID);
 			}
 		}
 		
@@ -182,7 +183,14 @@ public class Mob extends Rectangle {
 				return false;
 			} else {
 				return true;
+				
 			}
+		}
+		
+		public void getMoney(int mobID) {
+			Screen.killed += 1;
+			Screen.coinage += Value.deathReward[mobID];
+			System.out.println("$" + Screen.coinage + " Reward: $" + Value.deathReward[mobID] + " MOB: " + mobID);
 		}
 		
 		public void draw(Graphics g) {

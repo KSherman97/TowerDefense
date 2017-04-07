@@ -111,12 +111,12 @@ public class Block extends Rectangle{
 				}
 				
 				if(Screen.mobs[shotMob].isDead()) {
-					getMoney(Screen.mobs[shotMob].mobID);
+					//getMoney(Screen.mobs[shotMob].mobID);
 					
 					shooting = false;
 					shotMob = -1;
 					
-					Screen.killed += 1;
+					//Screen.killed += 1;
 					
 					Screen.hasWon();
 				}
@@ -125,9 +125,7 @@ public class Block extends Rectangle{
 	}
 		}
 	
-	public void getMoney(int mobID) {
-				Screen.coinage += Value.deathReward[mobID];
-			}
+	
 	
 	public void fight(Graphics g) {
 		if(Screen.isDebug) {
