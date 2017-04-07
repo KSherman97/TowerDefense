@@ -64,11 +64,11 @@ public class Mob extends Rectangle {
 		if(!Screen.isPause) {
 			
 			if(mobID == Value.mobGreeny) {
-				walkSpeed = 10;
+				walkSpeed = Value.mobSpeed[mobID];
 			} else if(mobID == Value.mob2) {
-				walkSpeed = 8;
+				walkSpeed = Value.mobSpeed[mobID];
 			} else if(mobID == Value.mob3) {
-				walkSpeed = 6;
+				walkSpeed = Value.mobSpeed[mobID];
 			}
 			
 			

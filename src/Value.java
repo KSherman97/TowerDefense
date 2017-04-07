@@ -1,4 +1,3 @@
-
 public class Value {
 	public static int groundGrass = 0;
 	public static int groundRoad = 1;
@@ -31,6 +30,7 @@ public class Value {
 	public static int[] deathReward = {3, 5, 10};
 	public static float[] damage = {(float) 0.5, 1, (float) 1.5, 2};
 	public static int[] health = {5, 10, 20};
+	public static float[] mobSpeed = {10, 8, 6};
 	
 	public static String version = "Tower Defense Beta 8";
 }
