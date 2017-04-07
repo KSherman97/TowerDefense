@@ -1,4 +1,4 @@
-#Beta 7 Current Release
+# Beta 8 Current Release
 
 ## WHAT'S NEW
 -	Reworking the splash screen
