@@ -74,7 +74,7 @@ public class Main extends JFrame {
 		lblNewLabel.setBounds(205, 100, 267, 38);
 		getContentPane().add(lblNewLabel);
 		
-		JLabel lblCreatedByWatchan = new JLabel("Created by Watchan games");
+		JLabel lblCreatedByWatchan = new JLabel(Value.copyrightNotice);
 		lblCreatedByWatchan.setHorizontalAlignment(SwingConstants.CENTER);
 		lblCreatedByWatchan.setFont(new Font("Tw Cen MT Condensed Extra Bold", Font.PLAIN, 10));
 		lblCreatedByWatchan.setBounds(205, 473, 267, 38);

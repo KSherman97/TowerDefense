@@ -32,5 +32,7 @@ public class Value {
 	public static int[] health = {5, 10, 20};
 	public static float[] mobSpeed = {10, 1, 6};
 	
-	public static String version = "Tower Defense Beta 8";
+	public static String copyrightYear = "2017";
+	public static String copyrightNotice = "Watchan Games";
+	public static String version = "Tower Defense Beta 9";
 }
