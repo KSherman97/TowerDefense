@@ -90,7 +90,7 @@ public class Main extends JFrame {
 		setSize(700, 550);
 		setLocationRelativeTo(null);
 		show();
-		new audio();
+		//new audio();
 		
 	}
 	
@@ -108,7 +108,7 @@ public class Main extends JFrame {
 					// Java Virtual Machine in the event that the
 					// Frame is closed by clicking on X.
 					// System.out.println("Exit via windowClosing.");
-					audio.activeClip.stop();
+					//audio.activeClip.stop();
 					System.exit(0);
 				}
 			}
@@ -121,7 +121,7 @@ public class Main extends JFrame {
 			if (e.getSource() == myFirstButton) {
 				Frame frame = new Frame();
 				setVisible(false);
-				audio.activeClip.stop();
+				//audio.activeClip.stop();
 				
 			}
 			if (e.getSource() == myThirdButton) {
@@ -129,7 +129,7 @@ public class Main extends JFrame {
 				setVisible(false);
 			}
 			if (e.getSource() == mySecondButton) {
-				audio.activeClip.stop();
+				//audio.activeClip.stop();
 				System.exit(0);
 			}
 		}
