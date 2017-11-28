@@ -1,26 +1,30 @@
 # HOW TO MAKE A MOD
-If you want to customize the images, they can be found in the res directory. You just open them up in your favorite image editor and edit away. Any good editor / modder knows to back up the old images also. If you are interested in editing / adding maps to the game they can be found in the save directory. They must always have the .kyle extension to be able to be loaded. Here is an example mapn
+If you want to customize the images, they can be found in the res directory. 
+You just open them up in your favorite image editor and edit away. 
+Any good editor / modder knows to back up the old images also. 
+If you are interested in editing / adding maps to the game they can be found in the save directory. 
+They must always have the .kyle extension to be able to be loaded. Here is an example map.
 
 ## Sample Save file
 20
 
-0  0  0  0  0  0  0  0  0  0  0  0
-1  1  1  0  1  1  1  1  1  1  1  0
-0  0  1  0  1  0  0  0  0  0  1  0
-0  0  1  0  1  1  1  1  0  0  1  0
-0  0  1  0  0  0  0  1  0  0  1  0
-0  0  1  0  0  0  0  1  0  0  1  0
-0  0  1  1  1  1  1  1  0  0  1  1
-0  0  0  0  0  0  0  0  0  0  0  0
-
--1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
--1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
--1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
--1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
--1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
--1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
--1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0
--1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+0  0  0  0  0  0  0  0  0  0  0  0<br>
+1  1  1  0  1  1  1  1  1  1  1  0<br>
+0  0  1  0  1  0  0  0  0  0  1  0<br>
+0  0  1  0  1  1  1  1  0  0  1  0<br>
+0  0  1  0  0  0  0  1  0  0  1  0<br>
+0  0  1  0  0  0  0  1  0  0  1  0<br>
+0  0  1  1  1  1  1  1  0  0  1  1<br>
+0  0  0  0  0  0  0  0  0  0  0  0<br>
+<br>
+-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1<br>
+-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1<br>
+-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1<br>
+-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1<br>
+-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1<br>
+-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1<br>
+-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0<br>
+-1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1<br>
 
 ### Save file breakdown
 Okay so let’s break this down a little so that you can get a better understanding of the structure and functionality of the map files:

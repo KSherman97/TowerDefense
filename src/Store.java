@@ -1,9 +1,4 @@
-import java.awt.Color;
-import java.awt.Container;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Image;
-import java.awt.Rectangle;
+import java.awt.*;
 
 import javax.swing.ImageIcon;
 import javax.swing.JTextField;
@@ -155,10 +150,9 @@ public class Store {
 		g.drawString("(4)", 390, 510);
 		
 		if(holdsItem){
-			g.drawImage(Screen.tileset_air[heldID], Screen.mse.x - (button[0].width - ((itemIn * 2) )/2) + itemIn, Screen.mse.y - (button[0].width - ((itemIn * 2) )/2) + itemIn, button[0].width - (itemIn * 2), button[0].height - (itemIn * 2), null);
+			//g.drawImage(Screen.tileset_air[heldID], Screen.mse.x - (button[0].width - ((itemIn * 2) )/2) + itemIn, Screen.mse.y - (button[0].width - ((itemIn * 2) )/2) + itemIn, button[0].width - (itemIn * 2), button[0].height - (itemIn * 2), null);
+			g.drawImage(Screen.tileset_air[heldID], Screen.mse.x - 20 , Screen.mse.y - 12, button[0].width - (itemIn * 2), button[0].height - (itemIn * 2), null);
 		}
 	}
-
-	
 }
 
