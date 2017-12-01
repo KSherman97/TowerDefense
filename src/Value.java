@@ -34,5 +34,5 @@ public class Value {
 	
 	public static String copyrightYear = "2017";
 	public static String copyrightNotice = "Elyk Games";
-	public static String version = "Tower Defense Beta 9.0.1";
+	public static String version = "Tower Defense Beta 9.0.2";
 }
