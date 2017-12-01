@@ -102,6 +102,7 @@ public class Screen extends JPanel implements Runnable{
 		tileset_menu[1] = new ImageIcon("res/won.jpg").getImage();
 		tileset_menu[2] = new ImageIcon("res/loading.jpg").getImage();
 		tileset_menu[3] = new ImageIcon("res/1.jpg").getImage();
+		tileset_menu[4] = new ImageIcon("res/watchan.png").getImage();
 		
 		save.LoadSave(new File("save/level" + level + ".kyle"));
 		
