@@ -27,8 +27,9 @@ public class Value {
 	public static int mob7 = 6;
 	public static int mob8 = 7;
 	
-	public static int[] deathReward = {3, 5, 10};
-	public static float[] damage = {(float) 0.5, 1, (float) 1.5, 2};
+	public static int[] mobDeathReward = {3, 5, 10};
+	public static float[] towerAttack = {(float) 0.5, 1, (float) 1.5, 2};
+	public static float[] mobMobAttack = {10, 15, 20};
 	public static int[] health = {5, 10, 20};
 	public static float[] mobSpeed = {10, 8, 6};
 	

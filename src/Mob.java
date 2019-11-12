@@ -50,13 +50,20 @@ public class Mob extends Rectangle {
 			mobWalk = 0;
 		}
 		
-		public void looseHealth() {
+		public void playerLoseHealth() {
 			if(mobID == Value.mobGreeny) {
-				Screen.health -= 10;
+				Screen.health -= Value.mobMobAttack[mobID];
 			}else if(mobID == Value.mob2) {
-				Screen.health -= 15;
+				Screen.health -= Value.mobMobAttack[mobID];
 			} else if(mobID == Value.mob3){
-				Screen.health -= 20;
+				Screen.health -= Value.mobMobAttack[mobID];
+			}
+		}
+		
+		public void mobLoseHealth(float amo) {
+			if(!Screen.isPause) {
+			health -= amo;
+			checkDeath();
 			}
 		}
 		
@@ -147,7 +154,7 @@ public class Mob extends Rectangle {
 				
 				if(Screen.room.block[yC][xC].airID == Value.airCave) {
 					deleteMob();
-					looseHealth();
+					playerLoseHealth();
 				}
 					
 				hasUpward = false;
@@ -162,13 +169,6 @@ public class Mob extends Rectangle {
 			walkFrame += 1;
 			}
 		}
-		}
-		
-		public void loseHealth(float amo) {
-			if(!Screen.isPause) {
-			health -= amo;
-			checkDeath();
-			}
 		}
 		
 		public void checkDeath() {
@@ -189,8 +189,8 @@ public class Mob extends Rectangle {
 		
 		public void getMoney(int mobID) {
 			Screen.killed += 1;
-			Screen.coinage += Value.deathReward[mobID];
-			System.out.println("$" + Screen.coinage + " Reward: $" + Value.deathReward[mobID] + " MOB: " + mobID);
+			Screen.coinage += Value.mobDeathReward[mobID];
+			System.out.println("$" + Screen.coinage + " Reward: $" + Value.mobDeathReward[mobID] + " MOB: " + mobID);
 		}
 		
 		public void draw(Graphics g) {

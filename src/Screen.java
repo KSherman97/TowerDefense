@@ -69,11 +69,11 @@ public class Screen extends JPanel implements Runnable{
 		store = new Store();
 
 		if(level == 1){
-		coinage += 40;
+			coinage += 40;
 		}
 		
 		if(level == 2){
-		coinage += 20;
+			coinage += 20;
 		}
 		
 		if(level > 2){
