@@ -62,7 +62,7 @@ public class Options extends JFrame {
 		options.setBounds(205,110,267,110);
 		getContentPane().add(options);
 		
-		JLabel lblCreatedByWatchan = new JLabel("Created by Watchan games");
+		JLabel lblCreatedByWatchan = new JLabel("Created by " + Value.copyrightNotice);
 		lblCreatedByWatchan.setHorizontalAlignment(SwingConstants.CENTER);
 		lblCreatedByWatchan.setFont(new Font("Tw Cen MT Condensed Extra Bold", Font.PLAIN, 10));
 		lblCreatedByWatchan.setBounds(205, 473, 267, 38);

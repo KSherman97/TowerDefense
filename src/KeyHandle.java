@@ -15,7 +15,7 @@ import javax.sound.sampled.DataLine;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 
-public class KeyHandel implements MouseMotionListener, MouseListener, KeyListener{
+public class KeyHandle implements MouseMotionListener, MouseListener, KeyListener{
 	
 	boolean playing = false;
 	

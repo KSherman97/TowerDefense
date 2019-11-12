@@ -47,9 +47,9 @@ public class Screen extends JPanel implements Runnable{
 	public static Mob[] mobs = new Mob[100];
 	
 	public Screen(Frame frame) {
-		frame.addMouseListener(new KeyHandel());
-		frame.addMouseMotionListener(new KeyHandel());
-		frame.addKeyListener(new KeyHandel());
+		frame.addMouseListener(new KeyHandle());
+		frame.addMouseMotionListener(new KeyHandle());
+		frame.addKeyListener(new KeyHandle());
 		
 		
 		
@@ -211,15 +211,15 @@ public class Screen extends JPanel implements Runnable{
 		}
 		
 	public void run() {
-		try {
-			properties.load();
-		} catch (FileNotFoundException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		} catch (IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
+//		try {
+//			Config.load();
+//		} catch (FileNotFoundException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		} catch (IOException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
 		while(true) {
 			if(!isFirst && health > 0 && !isWin) {
 				room.physic(); 
