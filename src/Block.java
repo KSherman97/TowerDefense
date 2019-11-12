@@ -44,7 +44,7 @@ public class Block extends Rectangle{
 		
 			if(!shooting) {
 			if(airID == Value.airTowerLaser) {
-				amo = Value.towerAttack[airID];
+				amo = Value.towerAttack[this.airID-2];
 				for(int i=0;i<Screen.mobs.length;i++) {
 						if(Screen.mobs[i].inGame) {
 							if(towerSquare.intersects(Screen.mobs[i])) {
@@ -56,7 +56,7 @@ public class Block extends Rectangle{
 				}
 			
 			if(airID == Value.airTowerLaser2) {
-				amo = Value.towerAttack[airID];
+				amo = Value.towerAttack[this.airID-2];
 				for(int i=0;i<Screen.mobs.length;i++) {
 						if(Screen.mobs[i].inGame) {
 							if(towerSquare.intersects(Screen.mobs[i])) {
@@ -67,7 +67,7 @@ public class Block extends Rectangle{
 					}
 				}
 			if(airID == Value.airTowerLaser3) {
-				amo = Value.towerAttack[airID];
+				amo = Value.towerAttack[this.airID-2];
 				for(int i=0;i<Screen.mobs.length;i++) {
 						if(Screen.mobs[i].inGame) {
 							if(towerSquare.intersects(Screen.mobs[i])) {
@@ -78,7 +78,7 @@ public class Block extends Rectangle{
 					}
 				}
 			if(airID == Value.airTowerLaser4) {
-				amo = Value.towerAttack[airID];
+				amo = Value.towerAttack[this.airID-2];
 				for(int i=0;i<Screen.mobs.length;i++) {
 						if(Screen.mobs[i].inGame) {
 							if(towerSquare.intersects(Screen.mobs[i])) {

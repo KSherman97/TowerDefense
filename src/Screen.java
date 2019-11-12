@@ -30,7 +30,7 @@ public class Screen extends JPanel implements Runnable{
 	
 	public static int myWidth, myHeight;
 	public static int coinage = 0, health = 100;
-	public static int killed = 0, killsToWin = 0, level = 1, maxLevel = 12;
+	public static int killed = 0, killsToWin = 0, level = 9, maxLevel = 12;
 	public static int winTime = 4000, winFrame = 0;
 	
 	public static boolean isFirst = true;
@@ -236,7 +236,7 @@ public class Screen extends JPanel implements Runnable{
 						if(level > maxLevel) {
 							System.exit(0);
 						} else {
-							level += 1;
+							level++;
 							define();
 							isWin = false;
 						}
