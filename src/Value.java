@@ -29,11 +29,12 @@ public class Value {
 	
 	public static int[] mobDeathReward = {3, 5, 10};
 	public static float[] towerAttack = {(float) 0.5, 1, (float) 1.5, 2};
+	public static float[] towerBeamColor = {};
 	public static float[] mobMobAttack = {10, 15, 20};
 	public static int[] health = {5, 10, 20};
 	public static float[] mobSpeed = {10, 8, 6};
 	
 	public static String copyrightYear = "2019";
 	public static String copyrightNotice = "EchoStar Games";
-	public static String version = "Tower Defense Beta 9.0.3";
+	public static String version = "Tower Defense Beta 9.0.4";
 }

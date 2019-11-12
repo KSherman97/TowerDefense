@@ -133,11 +133,19 @@ public class Block extends Rectangle{
 				g.drawRect(towerSquare.x, towerSquare.y, towerSquare.width, towerSquare.height);
 			}
 		}
-			if(shooting) {
+		if(shooting) {
+			if(airID == Value.airTowerLaser)
 				g.setColor(new Color(255, 255, 0));
-				if(!Store.sold) {
+			if(airID == Value.airTowerLaser2)
+				g.setColor(new Color(241, 51, 59));
+			if(airID == Value.airTowerLaser3)
+				g.setColor(new Color(9, 111, 247));
+			if(airID == Value.airTowerLaser4)
+				g.setColor(new Color(52, 246, 9 ));
+				
+			if(!Store.sold) {
 				g.drawLine(x + (width/2), y + (height/2), Screen.mobs[shotMob].x + (Screen.mobs[shotMob].width/2), Screen.mobs[shotMob].y + (Screen.mobs[shotMob].height/2));
-				} else {}	
-				}
+			} else {}	
+			}
 		}
 }

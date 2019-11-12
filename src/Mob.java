@@ -197,6 +197,7 @@ public class Mob extends Rectangle {
 				// Draws the mob
 				g.drawImage(Screen.tileset_mob[mobID], x, y, width, height, null);
 				
+				
 				//health bar
 				g.setColor(new Color(180, 50, 50));
 				g.fillRect(x, y - (healthSpace + healthHeight), width, healthHeight  );
