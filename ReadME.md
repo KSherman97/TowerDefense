@@ -12,8 +12,4 @@ This game is able to be customized with mods. Such as:
 -	Custom Maps
 -	In the near future I will release guides for better customization
 
-Thanks again for playing,
-
-Sincerely,
-Kyle S.<br>
-CEO of Elyk Games
+Thanks again for playing
